@@ -74,3 +74,46 @@ body {
   width: 300px;
   max-height: 400px;
 }
+.gallery {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+.gallery .image img {
+  width: 150px;
+  max-height: 200px;
+}
+.big-image {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.big-image img {
+  width: 600px;
+  max-height: 800px;
+  padding: 10px;
+  border: 1px solid #222;
+}
+.photo-link {
+  margin: 40px;
+  padding: 10px;
+  margin-top: 300px;
+  color: #222;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border: 2px solid #222;
+  height: max-content;
+  border-radius: 15px;
+}
+.add-photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 30%;
+  margin: 10px;
+}
+.add-photo input, .add-photo textarea {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.2rem;
+}
